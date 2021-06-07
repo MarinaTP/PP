@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Selecting One/Multiple elements</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+    <body>
+        <ul class= "first">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <ul class= "first">
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+        </ul>
+        <ul>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, libero.</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, laudantium?</li>
+            <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur, nisi.</li>
+        </ul>
+        
+        <script>
+            
+    //  function applyColor() {
+    //    var ulNodeSecond = document.querySelectorAll("ul")[1];
+    //    ulNodeSecond.className = "second";
+    //  }
+    //  applyColor();
+
+
+    //   function liColorApply(){
+    //       var liElements = document.querySelectorAll('li');
+    //       for(var i = 0; i < liElements.length; i++){
+    //        liElements[i].className = 'third';
+    //       }
+    //          }
+    //         liColorApply();
+
+       function lastUlList(){
+       var ulNodeThird = document.querySelectorAll("ul")[2].children;
+       for(var i = 0; i < ulNodeThird.length; i++){
+           ulNodeThird[i].className = 'fourth';
+          }             
+       }
+       lastUlList();
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access/Update Text Node</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Our products</a></li>
+        <li><a href="#">Who we are</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+
+<script>
+    function alertText(){
+        var textNodeToAlert = document.querySelectorAll('li')[2].textContent;
+        // console.log(textNodeToAlert);
+        return alert(textNodeToAlert);
+    }
+    alertText();
+
+    function textArgument(text){
+        var lastLi = document.querySelectorAll('ul')[0].lastElementChild;
+        console.log(lastLi);
+        return lastLi.textContent = text;
+    }
+    textArgument('This is optional text');
+</script>
+
+    
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Location</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    
+
+<script>
+        function urlProperties(){
+            console.log('Full url adress is: ' + window.location.href);
+            console.log('Domain name is: ' + window.location.hostname);
+            console.log('Used protocol is: ' + window.location.protocol);
+            console.log('Parameters which are part of url are: ' + window.location.search);
+        }
+        urlProperties();
+
+        function reloadPage(){
+            return window.location.reload();
+        }
+        reloadPage();
+
+        window.stop();
+
+        // function redirecting(){
+        //     // Simulate a mouse click:
+        //     return window.location.href = "http://www.google.com";
+
+        //     // // Simulate an HTTP redirect:
+        //     // window.location.replace("http://www.google.com");
+        // }
+        // redirecting();
+
+        
+</script>
+</body>
+</html>

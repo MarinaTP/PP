@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window Navigator</title>
+</head>
+<body>
+    <h1>Window Navigator</h1>
+
+    <script>
+        function infoUser(){
+            console.log('Platform:' + window.navigator.platform);
+            console.log('Version of browser:' + window.navigator.appVersion);
+            console.log('Company creator:' + window.navigator.vendor);
+        }
+        infoUser();
+
+        function isOnline(){
+            if(window.navigator.onLine === true){
+            var result = 'online';
+            }else{
+            var result = 'offline';
+            }
+            return console.log(result);
+        }
+        isOnline();
+    </script>
+</body>
+</html>

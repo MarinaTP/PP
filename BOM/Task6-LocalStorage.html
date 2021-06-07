@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+
+
+    <script>
+
+        // ::::::::::::::::::::::::::::::::::::::::::::LOCAL STORAGE:::::::::::::::::::::::::::::::::::::::::::::
+        // function storingData(name, value){
+        //     return window.localStorage.setItem(name, value);
+        // }
+
+        // storingData('name', 'Marina');
+        // storingData('name', 'Tanja');
+        // storingData('surname', 'Filipovic');
+        // storingData('color', 'red');
+    
+
+        // function printData(){
+        //     if(!window.localStorage.getItem('name')){
+        //         console.log('There is no data');
+        //     }else{
+        //         console.log(window.localStorage.getItem('name'));
+                
+        //     };
+
+        // }
+        // printData();
+
+        // // function removeData(){
+        // //     return window.localStorage.removeItem('name');
+        // // }
+
+        // // removeData();
+
+        
+        // :::::::::::::::::::::::::::::::::::::::::: SESSION STORAGE:::::::::::::::::::::::::::::::::::::::::::::::::::
+
+        // function storingData(name, value){
+        //     return window.sessionStorage.setItem(name, value);
+        // }
+
+        // storingData('name', 'Marina');
+        // storingData('name', 'Tanja');
+        // storingData('surname', 'Filipovic');
+        // storingData('color', 'red');
+    
+
+        function printData(){
+            if(!window.sessionStorage.getItem('name')){
+                console.log('There is no data');
+            }else{
+                console.log(window.sessionStorage.getItem('name'));
+                
+            };
+
+        }
+        printData();
+
+
+    </script>
+</body>
+</html>
