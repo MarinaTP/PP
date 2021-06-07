@@ -1,0 +1,20 @@
+.main-area{
+    background-color: darkcyan;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+form{
+    width: 700px;
+    margin: 0 auto;
+}
+
+input{
+    width: 67%;
+}
+button{
+    width: 30%;
+    background-color: red;
+    color: white;
+}

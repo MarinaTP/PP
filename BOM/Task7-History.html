@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+</head>
+<body>
+    <a href="https://www.google.com/search?q=google&oq=goo&aqs=chrome.3.69i57j35i39l2j0i131i433j0i433l6.4477j0j15&sourceid=chrome&ie=UTF-8">Google</a>
+    <button onclick="goBack()">Go Back</button>
+
+    <script>
+        function goBack(){
+            return window.history.back();
+        }
+        
+
+        function twoPagesBack(){
+            return window.history.go(-2);
+        }
+        twoPagesBack();
+    </script>
+    
+</body>
+</html>

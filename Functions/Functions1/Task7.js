@@ -1,0 +1,1 @@
+/*7.	Write a program that calculates a number of digits of a given number. */

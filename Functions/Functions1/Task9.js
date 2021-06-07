@@ -1,0 +1,1 @@
+/*9.	Write a program that calculates the sum of odd elements of a given array. */
