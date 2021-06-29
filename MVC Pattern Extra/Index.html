@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam statistics</title>
+    <link rel = "stylesheet" href = "Style.css">
+</head>
+<body>
+<main>
+<header>
+<div class = "div-center">
+    <h3>Exam statistic June</h3>
+    <h4>Total students<span></span></h4>
+    <div class = "pas mark">
+    <div>PASSED</div>
+    <div>
+    <span class = "numPassedStudents">2</span>
+    <span class = "percentPassed">4</span>
+    </div>
+</div>
+    <div class = "fail mark">
+    <div>FAILED</div>
+    <div>
+    <span class = "numFailedStudents">2</span>
+    <span class = "percentFailed">4</span>
+    </div>
+</div>
+
+</div>
+</header>
+
+<section>
+    <form class = "adding">
+    <div>
+        <select name = "subject" id = "subjects">
+            <option value = "-">Subject</option>
+           <option value ="Js">Javascript</option>
+           <option value="Php">Php</option>
+           <option value="C++">C++</option>
+           <option value="Java">Java</option>
+        </select>
+    </div>
+
+    <div>
+        <input type = "text" id = "nameSurname" placeholder = "Name and Surname">
+    </div>
+
+    <div>
+        <select name = "grade" id = "grade">  
+            <option value = "-">Grade</option>
+            <option value = "1">1</option>
+            <option value = "2">2</option>
+            <option value = "3">3</option>
+            <option value = "4">4</option>
+            <option value = "5">5</option>
+            <option value = "6">6</option>
+            <option value = "7">7</option>
+            <option value = "8">8</option>
+            <option value = "9">9</option>
+            <option value = "10">10</option>
+        </select>
+    </div>
+
+    <div>
+        <button type = "button" id = "btnGrade">ADD</button>
+    </div>
+    </form>
+    <p id = "errorMsg"></p>
+</section>
+
+<section class = "table">
+    <div>
+        <p>PASSED</p>
+        <ul class = "passedStudents"></ul>
+    </div>
+
+    <div>
+        <p>FAILED</p>
+        <ul class = "failedStudents"></ul>
+    </div>
+</section>
+</main>
+
+<script type = "text/javascript" src = "./JS/college.js"></script>
+<script type = "text/javascript" src = "./JS/exam.js"></script>
+<script type = "text/javascript" src = "./JS/subject.js"></script>
+<script type = "text/javascript" src = "./JS/student.js"></script>
+<script type = "text/javascript" src = "./JS/form.js"></script>
+<script type = "text/javascript" src = "./JS/app.js"></script>
+</body>
+</html>

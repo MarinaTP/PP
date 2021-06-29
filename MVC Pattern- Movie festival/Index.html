@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Festival</title>
+    <link rel = "stylesheet" href = "Style.css">
+</head>
+<body>
+<h1>Movie festival</h1>
+<main>
+<h4>Please fill in the form</h4>
+<h4>Movie</h4>
+<form>
+    <div><lable for = "title">Title</lable></div>
+        <input type = "text" placeholder = "Title" id = "title">
+    
+
+    <div><lable for = "length">Length (min)</lable></div>
+        <input type = "text" placeholder = "Length in min" id = "length">
+    
+
+    <div>
+    <select name = "genreOption" id = "genreOption">
+        <option value = "">-</option>
+        <option value = "Dramma">Dramma</option>
+        <option value = "Commedy">Commedy</option>
+        <option value = "Action">Action</option>
+        <option value = "Thriller">Thriller</option>
+    </select>
+    </div>
+
+    <button type = "button" id = "btnCreateMovie">Create movie</button>
+
+    <p id = "errorMsgMovie"></p>
+    <ul id = "listOfAllMovies"></ul>
+</form >
+
+<h4>Program</h4>
+
+<form>
+    
+
+<div>
+    <lable for = "date">Date</lable>
+    <div><input type="date" id = "dateInput"></div>
+
+    <button type = "button" id = "btnCreateProgram">Create program</button>
+
+    <p id = "errorDate"></p>
+    <ul id = "listOfPrograms"></ul>
+<hr>
+<div><lable for = "Movie">Movie</lable></div>
+<select name = "movie" id = "movie-select">
+    <option value = "-">-</option>
+</select>
+
+</div>
+
+<div><lable for = "Program">Program</lable></div>
+<div>
+<select name = "program" id = "program-select">
+    <option value = "">-</option>
+</select>
+</div>
+<button type = "button" id = "btn-AddMovieToProgram"> Add movie to program</button>
+
+</form>
+
+</main>
+    
+<script type = "text/javascript" src = "JS/Entities.js"></script>
+<script type = "text/javascript" src = "JS/Form.js"></script>
+</body>
+</html>
