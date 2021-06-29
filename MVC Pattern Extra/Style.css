@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 100%;
+}
+header{
+    background-image: url(./Img/cover.jpg);
+    background-position: center;
+    padding: 3em 2em;
+}
+.div-center{
+    min-width: fit-content;
+    max-width: 30%;
+    margin: 0 auto;
+}
+h3{
+    margin: 1em;
+    text-align: center;
+}
+h4{
+    margin: 1em;
+    text-align: center;
+}
+.mark{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+.pas{
+    background-color: #45AC9C;
+}
+.fail{
+    background-color: #D37B7B;
+}
+.adding{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(241 240 240);
+    padding: 1em;
+}
+.adding div{
+    margin: 0 5px;
+}
+#btnGrade{
+    background-color: rgb(241 240 240);
+    color: #45AC9C;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+#subjects{
+    padding: 0.2em;
+}
+#nameSurname{
+    padding: 0.2em;
+}
+#grade{
+    padding: 0.2em;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 2em auto;
+}
+.table div{
+    width: 30%;
+    margin: 1em 1em;
+}
+.table div >p{
+    border-bottom: 1px solid darkgrey;
+    padding: 0.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
